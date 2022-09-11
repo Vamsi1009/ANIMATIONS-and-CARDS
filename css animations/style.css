@@ -1,0 +1,151 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    border-radius: 5px;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    
+    
+}
+@keyframes box {
+    100% {
+        transform: rotate(360deg);
+        background-color: rgba(80, 224, 19, 0.493);
+        margin-left: 1100px;
+
+        
+    }
+    
+}
+
+
+.image1{
+    border:5px solid red;
+     width:300px;
+     height:300px;
+     
+}
+.image1 {
+    animation-duration:5s;
+    animation-name: image;
+    animation-iteration-count:infinite;
+    animation-timeline:sliding-vertically;
+    background-color:yellow;
+}
+@keyframes image {
+    100%{
+        transform:rotate(360deg);
+        margin-left: 1500px;
+        background-color:rgba(202, 25, 22, 0.996);
+    }
+    
+}
+
+
+@keyframes height-weight {
+    0%{background-color: aqua;}
+    25%{background-color: burlywood;}
+    50%{background-color: chartreuse;}
+    100%{background-color: crimson;}
+}
+.zoom {
+    width:400px;
+    height:400px;
+    border-radius: 10px;
+    animation-name: height-weight;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    margin: auto;
+
+
+}
+
+@keyframes img {
+    0%{font-size: small}
+    25%{font-size: medium}
+    50%{font-size: large}
+    75%{font-size: larger}
+    100%{font-size: x-large}
+    
+
+    
+}
+.image{
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+}
+img {
+    opacity:1;
+}
+.paragraph {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    width: 300px;
+    border:5px solid red;
+    height: 200px;
+    padding: 4px;
+    overflow:scroll;
+}
+.line {
+    writing-mode:vertical-rl;
+    border:5px solid green;
+    width:5%;
+    background-color: black;
+    border-radius: 5px;
+}
+h2{
+    color: aliceblue;
+}
+
+.carder {
+    width:400px;
+    height:400px;
+    margin-top: 30px;
+    background-color:rgba(129, 236, 22, 0.492);
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 20px;
+
+}
+
+.button input {
+    margin-top: 40px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkorchid;
+    color: whitesmoke;
+    z-index:-2;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    font-display:auto;
+    margin-bottom: 20px;
+}
+.button input:hover {
+    color:blue;
+    color:orangered;
+
+}
+.restro {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom:50px;
+}
+.restro .carder {
+    display:block;
+    float:left;
+    margin-bottom: 50px;
+
+}
+
